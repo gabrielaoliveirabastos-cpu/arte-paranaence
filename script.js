@@ -1,8 +1,16 @@
-const botao = document.querySelector("#botaoMensagem");
-const mensagem = document.querySelector("#mensagemIntera")
-botao.addEvenListener("click", mostrarMostrarMensagem);
-function mostrarmensagem() {
-   mensagem.textContent =
-    "Voce acbou de criar uma interacao com JAVAScri"  
-
+const botoescurtir =document.queryselectorAll(".curtir");
+     botoescurtir. forEach(function(botaoCutir){
+     let curtiu =false;
+      botaoCurtir.addEventlistener("click", curtir);
+      function curtir(){
+ const contador =botaoCurtir.queryselector("span");
+ if(curtiu === false){
+  contador. textcontent++;
+ curtiu = true;}
+     else{
+     contador.textcontent--;
+     curtiu = false; 
+     }
 }
+}
+
