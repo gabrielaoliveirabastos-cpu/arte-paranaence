@@ -1,15 +1,23 @@
 :root{
-    --cor-fundo: rgb(44, 58, 73);
+    --cor-fundo: rgb(231, 192, 107);
     --cor-texto: rgb(22, 9, 15)
-    --
+    --cor-principal:  #c56baf;
+    background-color: #644e5f;
+    --cor-secundaria: #ce9d90;
+    --cor-hover:#5a4843;
+    --cor-superfice:#4d6c72;
+    --cor-card:#6fb393;
+    --cor-legenda:#89c9d6;
+    --cor-clara:#7e5cac;
+    --cor-rodape:#a9af6d;
+h2
 }
 
  body{
-    background-color:var(--cor-fundo):bisque
-    color: #222222;
-    font-family: Arial, sans-serif;
-    margin: 0;
-}
+    background-color: var(--cor-principal);
+    color: var (--cor-clara);
+    font-family: center;
+    padding: 30px; 
 header{
     background-color: rgb(44, 58, 73);
 }
