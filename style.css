@@ -6,10 +6,10 @@
     --cor-secundaria: #ce9d90;
     --cor-hover:#5a4843;
     --cor-superfice:#4d6c72;
-    --cor-card:#6fb393;
-    --cor-legenda:#89c9d6;
+    --cor-card:#3a4d44;
+    --cor-legenda:#227383;
     --cor-clara:#7e5cac;
-    --cor-rodape:#a9af6d;
+    --cor-rodape:#5a5c44;
 h2
 }
 
@@ -31,7 +31,37 @@ Style
 body {
     background-color: #ccf77d;
     color: #7fecc2;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;:root{
+    --cor-fundo: rgb(231, 192, 107);
+    --cor-texto: rgb(22, 9, 15)
+    --cor-principal:  #c56baf;
+    background-color: #644e5f;
+    --cor-secundaria: #ce9d90;
+    --cor-hover:#5a4843;
+    --cor-superfice:#4d6c72;
+    --cor-card:#3a4d44;
+    --cor-legenda:#227383;
+    --cor-clara:#7e5cac;
+    --cor-rodape:#5a5c44;
+h2
+}
+
+ body{
+    background-color: var(--cor-principal);
+    color: var (--cor-clara);
+    font-family: center;
+    padding: 30px; 
+header{
+    background-color: rgb(44, 58, 73);
+}
+main{
+    background-color: rgb(253, 28, 197);
+}
+section{
+    background-color: rgb(175, 115, 231);
+}
+Style
+body {
 }
 
 header {
@@ -64,3 +94,84 @@ button: hover {
     width: fit-content;
     margin: 20px auto;
 }
+
+
+.card {
+  background-color: var(--cor-card);
+}
+
+.legenda {
+  color: var(--cor-legenda);
+}
+body>{ 
+    background-color: #f4f1ea;
+    color: #222222;
+    font-family: arial, sans-serif;
+}
+header{
+    background-color: #6b2d5c;
+    color: white;
+    text-aling: cente;
+    padding: 30px;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    color: #6b2d5c
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+main{
+    width:80%;
+    margin:auto;
+}
+
+section{
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+}
+ img {
+    width: 100%;
+ max-width: 600px;
+ display: block;
+ margin: auto;
+ borer-radius: 12px;
+ }
+ 
+ figcaption {
+    tet-align:center;
+    font-size: 14px;
+    color: var(--cor-legenda)
+    margin-top: 8px;
+ }
+   
+ card{ 
+    backgrond-color: #f3d9fa;
+    padding: 15px;
+    margin:15px 0;
+    border-left: 6px solid #6b2d5c;
+    border-radius: 10px;
+ }
+ card h3 {
+    margin-top: 0;
+ }
+ footer{
+    backgroud-color: #222222;
+    color: white;
+    text-alingn: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+</html>
+
+<main>
+</body>
+
+</html>
+
