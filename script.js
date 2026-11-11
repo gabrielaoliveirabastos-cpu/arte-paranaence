@@ -12,5 +12,4 @@ const botoescurtir =document.queryselectorAll(".curtir");
      curtiu = false; 
      }
 }
-}
-
+});
